@@ -4,7 +4,7 @@
 Text Type:  	str => string
 Numeric Types:	int (integer 0-9), float (.1), complex (1383j)
 Sequence Types:	list, tuple, range
-Mapping Type:	dict (key=>value) (name=>Ram)
+Mapping Type:	dict (key=>value) (name:Ram)
 Set Types:	    set, frozenset | union U
 Boolean Type:	bool(True/False 1/0)
 Binary Types:	bytes, bytearray, memoryview

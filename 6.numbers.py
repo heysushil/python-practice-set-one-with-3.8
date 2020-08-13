@@ -37,6 +37,8 @@ kaise
 1. int ko float me convert kare?
 2. flaot ko int me convert?
 3. int to comlex convert?
+
+print()
 '''
 
 intval = 33
