@@ -1,7 +1,5 @@
 '''
-Tuple:
-
-1. Tuple ko 
+len() use for geting the lenght of variable
 '''
 
 # > or ==
@@ -11,6 +9,7 @@ else:
     print('\nHi else')
 
 name = input('Enter your name: ')
+print(len(name))
 # mobile email
 # error handling regex len()
 
