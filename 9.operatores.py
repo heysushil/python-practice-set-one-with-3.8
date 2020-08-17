@@ -21,7 +21,7 @@ num1 = int(input('Enter first number: '))
 num2 = int(input('Enter second number: '))
 
 print('\n Sum of num1 + num2: ',num1 + num2)
-print('\n Sum of num1 + num2: ',num1 / num2)
+print('\n Div of num1 + num2: ',num1 / num2)
 
 '''
 1. Arithmatic Op (Math ke sare signs):

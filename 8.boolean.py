@@ -14,7 +14,7 @@ print('\nUse bool(): ',bool())
 # <input type="text" name="username">
 # name = post['username']
 name = input('Enter your name: ')
-print('Your name is ',name, bool(name))
+print('Your name is ',name, bool())
 
 # cech boolean
 if name != "":
