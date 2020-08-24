@@ -11,6 +11,22 @@ Isliye jab hame ek sath multiple values ko store karna ho single varibale me to 
 2. tupe => ()
 3. dict (dictonary) => {}
 4. set => {}
+
+Python List me following methods hain:
+
+Note: Example ke liye mylist = [1,2,3,4], iske behalf par examples diye gaye hain:
+
+1. append(): List me last se 1 nai value add karne ke liye append ka use kiya jata hai. Example: mylist.append(5)
+2. clear(): clear method list ko empty karta hai. Empty karne par agar varibel ko print karoge to empty list milega. But error nahi milega. Example: mylist.clear()
+3. copy(): Copy method ek list ko copy karke new variable me store kar dega. Example: newlist = mylist.copy()
+4. extend(): Extend ka use karke ek se jada list ko aapsh me marge kiya jata hai. Exaple: mylist.extend(newlist)
+5. index(): Index method kisi bhi value ka index position bata hai. Example: mylist.index(4)
+6. insert(): Insert method list me existing index possition par new value ko update karta hai. Example: mylist.index(1, 11), yaha par(indexPossion, newValue)
+7. pop(): Pop method thik append ka ulta hai. Ye by default list me last se ek value ko remove karta hai. Otherwise kisi specific index value ko remove karne ke liye is method me index postion dena hota hai. Example: mylist.pop() - Ye last se ek value remove kardega. mylist.pop(2) - Ye list ke 2nd index ki value ko remove kardega.
+8. remove(): Remove ka use kiya jata hai jab aapko index postion ki jagh par value ka pata ho. To direct value ko remove karne ke liye remove method ka use karte hain. Example: mylist.remove(4) - Ye list me jaha bhi 4 hai useko remove karega.
+9. reverse(): Reverse list ko ulta kardega. Means list by default assending order me hota hai. To ye list ko desending order me convert kar dega. Example: mylist.reverse()
+10. sort(): Sort mehtod list ko assending order me sort kardega. Example: mylist.sort() yaha par sort(revers=Ture/False) Ture = Ye list ko desending order me sort karega. False = Ye assending order me sort karega.
+11. count(): Count method list me present kisi bhi dublicate values ko count karne ke liye use hota hai. Example: mylist.count(4)
 '''
 
 # List
@@ -87,5 +103,26 @@ del nums
 
 # print('Nums values: ',nums)
 
+mylist = []
+mylist.append(11)
+mylist.append(21)
+mylist.append(31)
+mylist.append(41)
+mylist.append(41)
 
+newlist = mylist.copy()
+seclist = mylist.copy()
+mylist.clear()
+count = newlist.count(41)
+extend = newlist.extend(seclist)
+newlist.insert(0, 111)
+newlist.pop()
+newlist.pop(0)
+newlist.remove(41)
+# newlist.reverse()
+newlist.sort(reverse=True)
+print('\n\nMylist: ',mylist)
+print('\n\nNewlist: ',newlist,' Count:41: ',count)
+print('\nIndex: ',newlist.index(41))
+# print('\nInsert: ',newlist.insert(0, 111))
 
