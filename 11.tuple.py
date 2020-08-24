@@ -1,9 +1,17 @@
 '''
-Tuple:
+Python Tuple:
 
 1. Tuple nonchange hai, aur list changeable hai. iska systax ()
 2. Tuple me values na change kar pane ki wajah se isme is tarike ke koi bhi methods nahi milte hai.
 3. Single value wale tuple me value ke sath ek comma dena jaruri hai otherwiese wo ek stirng ya int value hi hoga.
+4. List ke jaise hi tuple me same to same slicing follow hota hai. Ye posstive and negative dono me hota hia.
+
+Tuple me total 2 mehtods milte hain:
+
+Note: Example tuple - newtuple = (11,22,33,33)
+
+1. count(): Same list count() method jaisa hi hai. Is ke use se tuple me exist dublicate values ko count kiya jata hai. Example: newtuple.count(33)
+2. index(): Same list index jaisa hi hai. Tuple me kisi bhi value ka index posstion find karne ke liye index method ka use kiya jata hai. Example: newtuple.index(33)
 '''
 
 mytuple = ('Hello',)
@@ -63,6 +71,8 @@ print('\nBigclass: ',tuple(bigclass))
 # tuple me 2 methods use hote hai: index() count() [0]
 print('\nIndex: ',bigclass.count('Ram'))
 
+newtuple = (11,)
+print('\n',type(newtuple))
 
 '''
 HM:
