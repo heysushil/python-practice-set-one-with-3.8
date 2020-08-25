@@ -37,6 +37,13 @@ print('\nGet name from userdata: ', userData.get('name'))
 userData['name'] = 'Sushil'
 print('\nUpdated name: ', userData)
 
+# update value by update method
+userData.update({'name':'Hey Sushil'})
+
+# add new key value using update
+userData.update({'newname':'Anjali'})
+print('\nUpdate(): ',userData)
+
 # find length of dict using len()
 print('\nFind lenght of userdata: ', len(userData))
 
