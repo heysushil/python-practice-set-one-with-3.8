@@ -87,7 +87,6 @@ print('\nNested UserData: ', userData)
 # get anjalis mobile number from nested dict
 print('\nMobile: ', userData['oindrila']['mobile'])
 
-exit()
 
 # Get values by user and store them in dict
 name = input('Enter your name: ')
