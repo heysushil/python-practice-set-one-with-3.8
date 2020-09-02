@@ -97,6 +97,3 @@ While loop programs:
 
 4. Ek list create karna hai jisme ki alphabets honge aur unko while loop ka use karke print karna hai but jab bhi koi vovel aaye to usko batan hai. Yaha par while loop and condtion use hoga. Yaha par single if condtion me ye kaam karna hai iske liye multiple condtion nahi use karna hai.
 '''
-
-name = 'Oindrila hello hi'
-print(name.count('hi'))
