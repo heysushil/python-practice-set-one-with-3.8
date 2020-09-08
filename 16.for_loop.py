@@ -64,6 +64,8 @@ Note: Sare program for loop ka use kar ke banae hain.
         2. Agar user input me number ki jagha alphabets deta hai to bhi user ko message show karna hai ki ye posible nahi hai pleas enter only number.
         3. Finally agar user inputs sahi deta hai then user ko wo complete range ka numebrs show karane hai.
 
+Note: Question number 4 ke liye reserch ki jarurat padegi.
+
 4. List me last index number kya hai ye pata karna hai? List me last value kya hai ye nahi pata karna hai. But...
     Example:
         Is list me [1,2,3,4,5,6,7,8]
