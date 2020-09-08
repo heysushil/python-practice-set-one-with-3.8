@@ -20,6 +20,7 @@ While loop ka syntax:
 intilization
 while (condtion):
     body of while loop
+    increment or decrement
 
 While loop syntax ke baare me:
 
