@@ -46,6 +46,18 @@ Note: Yaad rahe complete programming lanaguage me hame 2 chije bar bar milti hai
 
 1. Keywords: Jaise ke del, def, class etc...
 2. Function: Jaise ki print(), if(), for() etc....
+
+Function me argument aur return ka matlab:
+
+1. Argument asal me ek simple varaibel jaisa hi hai. Jab bhi hum fucntion me argument ki baat karte hain. To iska matlab hota hai ki hum kuch varible ya values fucntion me recive kar rahae hain.
+2. Because function me hum koi bhi ek specific work karte hain aur uska result show karate hain ya fir result ko return karte hain.
+3. Jaise hamesa yaad rakho ki arguments ko funciton me recive hi kiya jayega. Waise hi jab bhi function koi work complete kar dega then yata result fucniton me hi show karado. Ya fir result ko return bhi karaya ja sakta hai.
+4 Jab bhi bat result ko return karane ki ho, iska matlab hoga ki hum wo resutl funciton ke bahar recive karenge. Then usko kisi varibel me store kar sakte hain.
+
+Static aur dynamic values ka matlab:
+
+1. Static values means ye fix values hain jo hum ek bar define kar diye wahi rahega.
+2. Dynamic values means jab hum user input ke through valeus recive karte hain use time user kuch bhi values de sakta hain.
 '''
 
 # Ye only fucntion defintion hai.
@@ -54,7 +66,27 @@ def myFirstFucntion(): # ye fucntion definition hai
     print('\nHello first function.')
 
 # Function ko use karne ke liye use call karna jarui hai.
-myFirstFucntion() # ye fucntion call hai
+# myFirstFucntion() # ye fucntion call hai
+
+
+# Function without arguments & without return value: using create addition funciton
+
+# function
+def addition():
+    firstNumber = 50
+    secondNumber = 100
+
+    sum = firstNumber + secondNumber
+    return sum
+    # print('\nSum: ', sum)
+
+# call addition()
+print('\nSum: ', addition())
+
+
+# Function with arguments & with return value
+# Function with arguments & without return value
+# Function without arguments & with return value
 
 
 
