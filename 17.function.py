@@ -81,7 +81,7 @@ def addition():
     # print('\nSum: ', sum)
 
 # call addition()
-print('\nSum: ', addition())
+print('\nSum: ', addition() + 1000)
 
 
 # Function with arguments & with return value
