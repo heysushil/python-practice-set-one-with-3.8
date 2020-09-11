@@ -80,10 +80,50 @@ def addition():
     print('\nSum: ', sum)
 
 # call addition()
-addition()
+# addition()
 
 # Function with arguments & without return value
+def functionWithArguments(n, e):
+    # name = 'Oindrila'
+    print('Hi, ' + n + ' your emial id is ' + e)
 
+# function call
+'''
+Yaha par funciton me 1 argument name define kiya gaya hai, issi liye jab fucniton ko call kiya jayega to usme ye name argumen pass karna jaruri hai.
+'''
+# name = input('Enter your name: ')
+# email = input('Enter your emial id: ')
+# functionWithArguments(name, email)
+name = 'my name'
+functionWithArguments(name,'your email')
+
+# function with list argumest
+def sumFucntion(data):
+    print('type: ', type(data))
+    print('Hi ' + data[0] + ' and ' + data[1])
+
+# pass list on funciton
+# data = [1,2,3,4,5]
+data = ['ram','shyam']
+# sumFucntion(data)
+
+# in case recive normal data in tuple form in fucniton
+'''
+Function me unexpected number of data recive karna ho to hum usko  * ka use karke as a tuple form me recvie kar sakte hain.
+'''
+def fucntionWithStar(*userdata):
+    print('type: ', type(userdata))
+    print('Hi, ' + userdata[0] + ' and ' + userdata[1])
+
+# fucntionWithStar('ram','shyam','radha')
+
+'''
+Recive unexpected number of details in the form of key value pare then hame ** double start ka use karn hai aur values ko as dictionary ke formate me funciton me recive karna hai.
+'''
+def fucntionWithDictinaryValues(name):
+    print('Hi fucntionWithDictinaryValues your data is ', name)
+
+# fucntionWithDictinaryValues(name='Anjali')
 
 
 # Function with arguments & with return value
