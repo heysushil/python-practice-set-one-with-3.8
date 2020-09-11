@@ -95,7 +95,7 @@ Yaha par funciton me 1 argument name define kiya gaya hai, issi liye jab fucnito
 # email = input('Enter your emial id: ')
 # functionWithArguments(name, email)
 name = 'my name'
-functionWithArguments(name,'your email')
+# functionWithArguments(name,'your email')
 
 # function with list argumest
 def sumFucntion(data):
@@ -120,10 +120,12 @@ def fucntionWithStar(*userdata):
 '''
 Recive unexpected number of details in the form of key value pare then hame ** double start ka use karn hai aur values ko as dictionary ke formate me funciton me recive karna hai.
 '''
-def fucntionWithDictinaryValues(name):
-    print('Hi fucntionWithDictinaryValues your data is ', name)
+def fucntionWithDictinaryValues(**name):
+    print('fucntionWithDictinaryValues type: ', type(name))
+    print('Hi fucntionWithDictinaryValues your data is ', name['name'] + ' . Your email id is ' + name['email'])
 
-# fucntionWithDictinaryValues(name='Anjali')
+
+fucntionWithDictinaryValues(name='Anjali', email='myemial@')
 
 
 # Function with arguments & with return value
@@ -131,4 +133,8 @@ def fucntionWithDictinaryValues(name):
 # Function without arguments & with return value
 
 
+'''
+Questions:
 
+1. Ek funciton create karna hai jisme ki apne firneds ki list dict ke form me bana hai aur usko fucntion ko pass karna hai. Then fucntion me usko multi line string ka use karke apne sabhi friends ak detail show karan hai.
+'''
