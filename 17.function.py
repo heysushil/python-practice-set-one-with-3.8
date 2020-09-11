@@ -137,4 +137,13 @@ fucntionWithDictinaryValues(name='Anjali', email='myemial@')
 Questions:
 
 1. Ek funciton create karna hai jisme ki apne firneds ki list dict ke form me bana hai aur usko fucntion ko pass karna hai. Then fucntion me usko multi line string ka use karke apne sabhi friends ak detail show karan hai.
+
+2. User se multiple numbers get karne hain. Isske liye list aur appned ka use karna hai.
+
+Then ye values alag-alag fucntion banae hai aur un sab me recive karn hai. Means sum, subtract, multiplication etc... ke funciton banae hai aur unme recive kar ke result show karana hai.
+
+3. Same second number ke qustion ka use karna hai aur result ko fucntion ke andar na show karke usko return karna hai. Aur jo kuch result aaya usko chek karna hai agar result:
+    a. agar result < 100 hai then:  isme 100 add karke result show karna hai.
+    b. agar result > 100 and < 200 hai to to 200 add karke result show karn hai.
+    c. agar result > 200 hai then 500 add karke result show karna hai.
 '''
