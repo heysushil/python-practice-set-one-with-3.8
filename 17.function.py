@@ -77,15 +77,17 @@ def addition():
     secondNumber = 100
 
     sum = firstNumber + secondNumber
-    return sum
-    # print('\nSum: ', sum)
+    print('\nSum: ', sum)
 
 # call addition()
-print('\nSum: ', addition() + 1000)
+addition()
+
+# Function with arguments & without return value
+
 
 
 # Function with arguments & with return value
-# Function with arguments & without return value
+
 # Function without arguments & with return value
 
 
