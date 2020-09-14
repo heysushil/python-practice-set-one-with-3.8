@@ -124,14 +124,11 @@ def fucntionWithDictinaryValues(**name):
     print('fucntionWithDictinaryValues type: ', type(name))
     print('Hi fucntionWithDictinaryValues your data is ', name['name'] + ' . Your email id is ' + name['email'])
 
-
 fucntionWithDictinaryValues(name='Anjali', email='myemial@')
-
 
 # Function with arguments & with return value
 
 # Function without arguments & with return value
-
 
 '''
 Questions:
