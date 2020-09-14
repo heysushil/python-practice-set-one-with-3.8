@@ -104,7 +104,7 @@ def sumFucntion(data):
 
 # pass list on funciton
 # data = [1,2,3,4,5]
-data = ['ram','shyam']
+data = ['ram','shyam','shyam','shyam']
 # sumFucntion(data)
 
 # in case recive normal data in tuple form in fucniton
@@ -146,4 +146,8 @@ Then ye values alag-alag fucntion banae hai aur un sab me recive karn hai. Means
     a. agar result < 100 hai then:  isme 100 add karke result show karna hai.
     b. agar result > 100 and < 200 hai to to 200 add karke result show karn hai.
     c. agar result > 200 hai then 500 add karke result show karna hai.
+
+Exta Questions:
+1. What is cookies? How usefull or dangers it is?
+2. What is session?
 '''
