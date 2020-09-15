@@ -124,14 +124,53 @@ def fucntionWithDictinaryValues(**name):
     print('fucntionWithDictinaryValues type: ', type(name))
     print('Hi fucntionWithDictinaryValues your data is ', name['name'] + ' . Your email id is ' + name['email'])
 
-fucntionWithDictinaryValues(name='Anjali', email='myemial@')
+# fucntionWithDictinaryValues(name='Anjali', email='myemial@')
 
 # Function with arguments & with return value
+def sumFun(num1, num2):
+    mysum = num1 + num2
+    return mysum
+
+# funciton call time par 2 arguments pass karne hai
+# num1 = int(input('Enter 1st number: '))
+# num2 = int(input('Enter 2nd number: '))
+# mytotal = sumFun(num1, num2)
+# print('\nMy total sum is ', mytotal)
 
 # Function without arguments & with return value
+def myDetails():
+    name = 'Anjali'
+    course = 'Python'
+    address = 'India'
+
+    mydata = """
+    _______________________________________
+            Hi, I'm {0} my detail's is
+    _______________________________________
+    Name: {0}
+    Course: {1}
+    Address: {2}
+    """.format(name, course, address)
+
+    # return mydata
+    return mydata
+
+# call function and recive data of candidate
+candidateData = myDetails()
+print(candidateData)
+
 
 '''
 Questions:
+
+Easy Questions:
+
+1. sum, subtract, multiplication, division ke funciton banane hain. Ye funtion indivial files me banane hain. Aur in file me ye 4 function behaviour ke through yeahi same functions bane hain.
+    
+    a. Function without arguments & without return value
+    b. Function with arguments & without return value
+    c. Function without arguments & with return value
+    d. Function with arguments & with return value
 
 1. Ek funciton create karna hai jisme ki apne firneds ki list dict ke form me bana hai aur usko fucntion ko pass karna hai. Then fucntion me usko multi line string ka use karke apne sabhi friends ak detail show karan hai.
 
