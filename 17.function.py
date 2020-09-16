@@ -163,7 +163,9 @@ print(candidateData)
 '''
 Questions:
 
+----------------------------------------------------
 Easy Questions:
+----------------------------------------------------
 
 1. sum, subtract, multiplication, division ke funciton banane hain. Ye funtion indivial files me banane hain. Aur in file me ye 4 function behaviour ke through yeahi same functions bane hain.
     
@@ -171,6 +173,10 @@ Easy Questions:
     b. Function with arguments & without return value
     c. Function without arguments & with return value
     d. Function with arguments & with return value
+
+----------------------------------------------------
+Normal Questions:
+----------------------------------------------------
 
 1. Ek funciton create karna hai jisme ki apne firneds ki list dict ke form me bana hai aur usko fucntion ko pass karna hai. Then fucntion me usko multi line string ka use karke apne sabhi friends ak detail show karan hai.
 
@@ -183,7 +189,10 @@ Then ye values alag-alag fucntion banae hai aur un sab me recive karn hai. Means
     b. agar result > 100 and < 200 hai to to 200 add karke result show karn hai.
     c. agar result > 200 hai then 500 add karke result show karna hai.
 
+----------------------------------------------------
 Exta Questions:
+----------------------------------------------------
+
 1. What is cookies? How usefull or dangers it is?
 2. What is session?
 '''
