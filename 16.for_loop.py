@@ -103,7 +103,7 @@ Note: Sare program for loop ka use kar ke banae hain.
     
     Important Point:
 
-        a. Agar user first input greater then second number de raha hai then usko message show karna hai ki ye possible nahi hai.
+        1. Agar user first input greater then second number de raha hai then usko message show karna hai ki ye possible nahi hai.
         2. Agar user input me number ki jagha alphabets deta hai to bhi user ko message show karna hai ki ye posible nahi hai pleas enter only number.
         3. Finally agar user inputs sahi deta hai then user ko wo complete range ka numebrs show karane hai.
 
@@ -132,3 +132,9 @@ Otherwise agar end number greater then 10 hai to not accept ka mesage show karan
 
 Otherwise numbers ko print karna hai and at last while loop end ke bad else ka use karke while loop stoped ka message show karna hai.
 '''
+
+# number = 'hello'
+# print('\n', number.isdigit())
+# num2 = 'hi by'
+# if number.isdigit() == True:
+#     print('\n', number.isdigit())
