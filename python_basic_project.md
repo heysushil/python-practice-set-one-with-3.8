@@ -1,6 +1,7 @@
 # Student class admission and result project using Python basic concept:
 
 > Note: Ye project pyhton basic concpts ka use kar ke bana hai.
+> Note: Yaha par aapko fucntion ka hi use karna hai. Otherwise aapka kam nahi ho payega.
 
 ## Student admistion section
 
