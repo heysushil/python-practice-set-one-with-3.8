@@ -23,8 +23,7 @@
         1. student math subject
         1. student science subject
         1. student computer subject
-1. Dhyan rahe ki registration time par har ek field ko check karna hai ki:
-    1. Jis filed me jis tarike ke value ki jarurat hai uske alawa agar user kuch aur input kare to user ko message show kardo otherwise value store karlo
+1. Dhyan rahe ki:
     1. ye sari value aap jis form me store karna caho kar sakte ho.
     1. Yad rahe student ka personal aur class details seprate rahe taki aage class detail ka use kar ke studen ko subject wise marks de sako.
 1. Last me agar registration successful rahta hain then user ko message show karna hai ki:
@@ -52,7 +51,7 @@
         1. 60-79.99 = 2nd div result
         1. 40-59.99 = 3rd div result
         1. <39.99 = Fail
-1. Yad rahe ki student rollnumber ki behalf par result show karna hai. aur ek studnet ka result show hone ke bad theek niche option dena hai yes/no (y/n) ka ki agar aap kisi aur student ka resutl dekhna cahte hain then y enter kare ya nahi dekhna cahte hain to n enter kare.
+1. Yad rahe ki student rollnumber ki behalf par result show karna hai. aur ek studnet ka result show hone ke bad theek niche option dena hai yes/no (y/n) ka ki agar aap kisi aur student ka result dekhna cahte hain then y enter kare ya nahi dekhna cahte hain to n enter kare.
 1. y enter karne par: user se student roll number lena hai then uska result same tarike se show karn hai.
 
 > Note: Har concept me jaha par bhi user se input lena hai aap ko us har ek jagah par validation karna hai ki agar use kuch aur input de raha hai to message show karna.
