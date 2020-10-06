@@ -15,10 +15,10 @@ class MyFirstClass:
 
     name = 'Anjali'
     # user function
-    def myname():
+    def myname(self):
         print('\nHello my first function.')
 
-    def myname1():
+    def myname1(self):
         print('\nHello my first11111 function.')
 
 # create object to use class

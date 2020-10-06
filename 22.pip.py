@@ -9,8 +9,8 @@ Commands for pip packages:
 4. uninstall camelcase libray: pip uninstall camelcase
 '''
 
-import camelcase as c
+# import camelcase as c
 
-name = 'hello anjali'
-cobject = c.CamelCase()
-print(cobject.hump(name))
+# name = 'hello anjali'
+# cobject = c.CamelCase()
+# print(cobject.hump(name))
