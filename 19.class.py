@@ -22,7 +22,7 @@ class MyFirstClass:
         print('\nHello my first11111 function.')
 
 # create object to use class
-myobj = MyFirstClass
+myobj = MyFirstClass()
 
 myobj.myname()
 myobj.myname1()
