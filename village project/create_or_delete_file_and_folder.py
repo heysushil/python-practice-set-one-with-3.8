@@ -9,6 +9,34 @@ Yaha par file handling realter work solve kiya gaya hai:
 '''
 import os
 
+# Get Admin choise from main.py file
+class AdminChocie(Filehandling):
+    def __init__(self, choice):
+        self.choice = choice
+
+
+    def checkAdminChoice(self):
+        # 1 for creating new family file
+        if self.choice == 1:
+            # print('\n\n1. Choose 1 - Show village list.')
+            # show all villages name
+            villagelist = open('village project/village_list.txt', 'r')
+            getVillageList = villagelist.read()
+            # check condtion if village_list.txt is empty then create new village otherwise show list of village
+            if bool(getVillageList) == False:
+                # call Filhanding class to cerate new village folder
+                pass
+            else:
+                # show all village list
+                pass
+
+        elif self.choice == 2:
+            # 2 for create village folder
+            print('\n\n2. Choose 2 - Create new village')
+        else:
+            print('\n\nYou chooced wrong choice. Pleas try again and enter 1 or 2.')
+
+# File handling to create new file or folder            
 class Filehandling():
     def __init__(self, *userinput):
         self.fileName = userinput[0]
