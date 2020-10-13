@@ -38,6 +38,8 @@ Ye sara kaam process wise hona hai. So iski details niche point wise batai gai h
 1. Create main.py file jaha par hum user se input le rahe hain:
         1. show villages list:
                 1. Chekc village_list.txt file first for available village.
+                        1. agar file me villages availabel hai to show karenge
+                        2. Otherwise new village create karna ka option denge
                 2. Agar village exist karta hain then: 
                         1. hum user ko new family register karne ka option denge
                         2. Hum existing family dekhne ka option denge.
