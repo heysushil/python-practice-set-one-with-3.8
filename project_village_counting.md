@@ -2,7 +2,7 @@
 
 ## About Project:
 
-Hum ek project bana rahe hain. Jisme hum pahle ek village ke sabhi family ki details ko store karne. Then is tarike se hi hum bad me multiplal villages ka data store karenge.
+Hum ek project bana rahe hain. Jisme hum pahle ek village ke sabhi family ki details ko store karenge. Then is tarike se hi hum bad me multiplal villages ka data store karenge.
 
 Yaha par har ek village ke name se folder create karna then use village folder me family wise files bana kar store karna.
 
@@ -35,7 +35,7 @@ Ye sara kaam process wise hona hai. So iski details niche point wise batai gai h
         -------------------------------------------
 ## Step 1:
 
-1. Create main.py file jaha par hum user se input le rahe hain:
+1. Create main.py file jaha par hum user se input le rahe hain choice ke liye:
         1. show villages list:
                 1. Chekc village_list.txt file first for available village.
                         1. agar file me villages availabel hai to show karenge
