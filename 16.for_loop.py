@@ -97,8 +97,6 @@ Note: Sare program for loop ka use kar ke banae hain.
 
 2. user se input lena hai koi bhi single number and uska table (Pahada) print karan hai. Aur iska range 10 tak rahega.
 
-ये हिन्दी गिनती है: १ २ ३ ४ ५ ६ ७ ८ ९ १०
-
 3. User se 2 input lena hai ek staring point aur 2nd end point ke liye aur usko print karna hai.
     
     Important Point:
